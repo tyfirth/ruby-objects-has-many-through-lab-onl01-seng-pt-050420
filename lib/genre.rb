@@ -6,6 +6,7 @@ class Genre
   
   def initialize(genre)
     @genre = genre
+    @@all << self
   end
   
 end
