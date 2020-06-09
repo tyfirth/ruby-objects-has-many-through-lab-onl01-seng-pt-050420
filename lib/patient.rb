@@ -13,7 +13,7 @@ class Patient
   end
   
   def appointments
-    Appointment.all.map
+    Appointment.all.map {|appointment| appointment.patient == self}
   end
   
 end
