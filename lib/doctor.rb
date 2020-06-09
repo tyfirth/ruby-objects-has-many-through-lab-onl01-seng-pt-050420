@@ -9,4 +9,6 @@ class Doctor
     @@all << self
   end
   
+  def 
+  
 end
